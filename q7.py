@@ -2,7 +2,7 @@
 #Ex: 101, 111, ...
 #OBS: NÃO converta N para string. Trate-o como número!
 
-num = 111
+num = 110
 nume = num
 
 
