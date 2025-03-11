@@ -1,4 +1,3 @@
-#Escreva um programa em Python para somar três números inteiros do usuário. No entanto, se dois valores forem iguais, a soma será zero.
 soma = 0
 num1 = int(input('Digite um número: '))
 soma += num1
