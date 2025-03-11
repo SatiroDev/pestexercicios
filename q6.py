@@ -4,7 +4,8 @@ nume = num
 
 num1 = num % 10
 num //= 10
-print(num1 in str(num))
+
+
 #     num2 = num % 10
 #     num = num // 10
 #     if num1 == num2:
