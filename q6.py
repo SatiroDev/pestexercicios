@@ -8,6 +8,7 @@ num //= 10
 
 
 
+
 #     num2 = num % 10
 #     num = num // 10
 #     if num1 == num2:
