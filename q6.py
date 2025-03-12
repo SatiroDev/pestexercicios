@@ -16,8 +16,6 @@ num = num // 10
 
 num5 = num
 
-
-
 if num1 == num2 or num1 == num3 or num1 == num4 or num1 == num5:
     print('um digito se repete mais de 2 vezes')
 elif num2 == num3 or num2 == num4 or num2 == num5:

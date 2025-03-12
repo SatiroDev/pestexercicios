@@ -1,7 +1,3 @@
-#Escreva um programa para verificar se um número de três dígitos é um palíndromo.
-#Ex: 101, 111, ...
-#OBS: NÃO converta N para string. Trate-o como número!
-
 num = 110
 nume = num
 
