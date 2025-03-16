@@ -1,2 +1,2 @@
 # exercicios de Pest 
-  Atividades de Programação Estruturada (PEST)
+  atividades de Programação Estruturada (PEST)
