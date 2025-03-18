@@ -17,12 +17,12 @@ num = num // 10
 num5 = num
 
 if num1 == num2 or num1 == num3 or num1 == num4 or num1 == num5:
-    print('um digito se repete mais de 2 vezes')
+    print('um digito se repete 2 vezes ou mais')
 elif num2 == num3 or num2 == num4 or num2 == num5:
-    print('um digito se repete mais de 2 vezes')
+    print('um digito se repete 2 vezes ou mais')
 elif num3 == num4 or num3 == num5:
-    print('um digito se repete mais de 2 vezes')
+    print('um digito se repete 2 vezes ou mais')
 elif num4 == num5:
-    print('um digito se repete mais de 2 vezes')
+    print('um digito se repete 2 vezes ou mais')
 else:
-    print('um digito não se repete mais de 2 vezes')
+    print('um digito não se repete 2')

@@ -1,4 +1,4 @@
-num = 110
+num = int(input('Digite um número com 3 digitos: '))
 nume = num
 inv = 0
 inv = inv * 10 + num % 10
