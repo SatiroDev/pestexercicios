@@ -1,11 +1,7 @@
+soma = 0
 while True:
-    num = int(input('Digite um número [0 para parar]: '))
-    c = num
+    num = int(input('Digite um número: [0 para encerrar] '))
     if num == 0:
         break
-    else:
-        while c != 0:
-            if num % c == 0:
-                print(c)
-            c -= 1
-    
+    soma += num
+print(f'A soma dos números inseridos foi: {soma}')

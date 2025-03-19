@@ -1,16 +1,11 @@
-num = int(input('Digite um número: '))
-nume = num
-copia_num = num
-inverso = 0
-quantidade_digs = 0
-cont = 1
-while nume:
-    nume //= 10
-    quantidade_digs += 1
-
-while cont <= quantidade_digs:
-    inverso = inverso * 10 + num % 10
-    num //= 10
-    cont += 1
-
-print(f'Número normal {copia_num}, número ao contrário {inverso}')
+while True:
+    num = int(input('Digite um número [0 para parar]: '))
+    c = num
+    if num == 0:
+        break
+    else:
+        while c != 0:
+            if num % c == 0:
+                print(c)
+            c -= 1
+    
