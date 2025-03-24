@@ -1,4 +1,4 @@
-for i in range(1, 1000):
+for i in range(1, 1000000000):
     copi = i
     copia = i
     copia2 = i
@@ -14,24 +14,5 @@ for i in range(1, 1000):
                 soma += mult
                 copia2 //= 10
     if copi == soma:
-        print(f'O número {copi} é Armstrong soma = {soma}')
+        print(f'O número {copi} é Armstrong')
    
-
-# num = int(input('Digite um número positivo: '))
-# copia_num = num
-# copia_num1 = num
-# numer = num
-# quant_digs = 0
-# soma = 0
-# while numer:
-#     numer //= 10
-#     quant_digs += 1
-# while num > 0:
-#     copia_num1 = num % 10
-#     mult = copia_num1 ** quant_digs
-#     soma += mult
-#     num //= 10
-# if copia_num == soma:
-#     print(f'O número {copia_num} é Armstrong')
-# else:
-#     print(f'O número {copia_num} não é Armstrong')
