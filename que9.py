@@ -1,4 +1,6 @@
-for i in range(1000, 8250):
+inicio = int(input('Número para ser o inicial: '))
+fim = int(input('Número para ser o ultimo: '))
+for i in range(inicio, fim+1):
     copi = i
     copia = i
     copia2 = i
