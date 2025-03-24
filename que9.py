@@ -1,4 +1,4 @@
-for i in range(1, 1000000000):
+for i in range(1000, 8250):
     copi = i
     copia = i
     copia2 = i
