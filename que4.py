@@ -4,4 +4,4 @@ quantidade = 0
 for i in range(0, num+1):
     soma += i
     quantidade += 1
-print(f'A média foi de {soma/quantidade}')
+print(f'A média foi de {soma/quantidade:.2f}')
