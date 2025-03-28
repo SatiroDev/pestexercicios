@@ -3,10 +3,8 @@ comecar = int(input('Digite o número para começar: '))
 fim = int(input('Digite um número para finalizar: '))
 print(f'Os números Armstrong entre {comecar} e {fim} são: ')
 while True:
-    quant_digs = 0 
-    soma = 0
-    copia_c2 = comecar
-    cc = comecar
+    quant_digs = soma = 0 
+    copia_c2 = cc =  comecar
     while copia_c2:
         copia_c2 //= 10
         quant_digs += 1
