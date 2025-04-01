@@ -17,4 +17,3 @@ for i in range(inicio, fim+1):
                 copia2 //= 10
     if copi == soma:
         print(f'O número {copi} é Armstrong')
-   
