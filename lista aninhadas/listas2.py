@@ -30,10 +30,10 @@ def remover_aluno():
             if aluno[0] == nome_aluno_remocao:
                 verificacao = True
                 alunos.remove(aluno)
-                print(f'Aluno "{nome_aluno_remocao}" removido com sucesso!')
+                print(f'Aluno(a) "{nome_aluno_remocao}" removido(a) com sucesso!')
                 break
         if verificacao == False:
-            print(f'Aluno "{nome_aluno_remocao}" não encontrado!')
+            print(f'Aluno(a) "{nome_aluno_remocao}" não encontrado(a)!')
     else:
         print('Nenhum aluno adicionado!')
 
