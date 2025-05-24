@@ -43,8 +43,8 @@ def mostrar_alunos():
         for aluno in alunos:
             print(f'Nome: {aluno[0]}')
             print(f'Idade: {aluno[1]}')
-            print(f'Notas: {alunos[2]}')
-            print(f'Média: {sum(alunos[2])/ len(alunos[2]):.2f}')
+            print(f'Notas: {aluno[2]}')
+            print(f'Média: {sum(aluno[2])/ len(aluno[2]):.2f}')
     else:
         print('Nenhum aluno adicionado!')
     
