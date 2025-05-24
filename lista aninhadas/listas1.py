@@ -9,7 +9,7 @@ colunas = int(input('Digite quantas linhas você vai querer na matriz: '))
 for i in range(linhas):
     linha = []
     for y in range(colunas):
-        elemento = int(input(f'Digite um número para posição ({i}, {y}): '))
+        elemento = int(input(f'Digite um número para posição ({i+1}, {y+1}): '))
         linha.append(elemento)
     matriz.append(linha)
 
