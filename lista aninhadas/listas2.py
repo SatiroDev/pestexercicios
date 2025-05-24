@@ -6,6 +6,7 @@ def menu():
     print('1. Adicionar aluno')
     print('2. Remover aluno')
     print('3. Mostrar alunos com média')
+    print('4. Sair')
     escolha = input('Escolha uma opção: ')
     return escolha
 
@@ -46,3 +47,18 @@ def mostrar_alunos():
             print(f'Média: {sum(alunos[2])/ len(alunos[2]):.2f}')
     else:
         print('Nenhum aluno adicionado!')
+    
+
+while True:
+    opcao = menu()
+    if opcao == '1':
+        adicionar_aluno()
+    elif opcao == '2':
+        remover_aluno()
+    elif opcao == '3':
+        mostrar_alunos()
+    elif opcao == '4':
+        print('Fim do programa!')
+        break
+    else:
+        print(f'Opção "{opcao}" inválida!')
